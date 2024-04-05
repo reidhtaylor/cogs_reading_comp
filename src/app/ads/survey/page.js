@@ -88,7 +88,7 @@ const Survey = () => {
 
       {/* Complete Button */}
       <div className="rounded-lg border border-transparent border-white border-opacity-20 px-20 py-5 text-center transition-all hover:border-2 hover:border-opacity-25 active:border">
-        <Link href="http://localhost:3000/ads/survey/finished" className="group" target="_blank" rel="noopener noreferrer" >
+        <Link href="/ads/survey/finished" className="group" target="_blank" rel="noopener noreferrer" >
           <h2 className={`text-2x1 mb-1 text-white font-semibold`}>Complete</h2>
           <p className={`text-sm text-white opacity-50`}>Finish this survey</p>
         </Link>
