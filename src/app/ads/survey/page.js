@@ -51,7 +51,7 @@ const Survey = () => {
     <main className="flex min-h-screen flex-col items-center p-24 pt-14 space-y-14">
       {/* Header */}
       <div className="z-10 w-full items-center justify-between text-center font-mono text-white text-sm">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200  lg:p-4 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:p-4 border-neutral-800 bg-zinc-800/30 from-inherit lg:bg-zinc-800/30">
           Reading Comprehension Survey
         </p>
       </div>
