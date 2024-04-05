@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <main className="flex h-full flex-col items-center justify-between pb-24 pt-14">
+    <main className="flex h-full flex-col items-center justify-between pb-24 pt-14 bg-gray-950">
       <div className="z-10 w-11/12 items-center justify-between text-center font-mono text-white text-sm">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b bg-gradient-to-b pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border  lg:p-4 border-neutral-800 bg-zinc-800/30 from-inherit lg:bg-zinc-800/30">
           Reading Comprehension

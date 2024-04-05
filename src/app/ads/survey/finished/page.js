@@ -2,7 +2,7 @@
 
 const Finished = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 pt-14">
+    <main className="flex min-h-screen flex-col items-center justify-center p-24 pt-14 bg-gray-950">
       <div className="h-32 w-32 rounded-full bg-zinc-800/30 flex items-center justify-center border border-neutral-800">
         <svg class="h-20 w-20 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
