@@ -8,8 +8,8 @@ const Finished = () => {
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
         </svg>
       </div>
-      <h2 className={`text-lg font-semibold tracking-wider mt-5`}>You&apos;re done!</h2>
-      <h2 className={`text-sm tracking-wider opacity-40`}>You can now exit the room :)</h2>
+      <h2 className={`text-lg text-white font-semibold tracking-wider mt-5`}>You&apos;re done!</h2>
+      <h2 className={`text-sm text-white tracking-wider opacity-40`}>You can now exit the room :)</h2>
     </main>
   );
 };

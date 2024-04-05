@@ -47,14 +47,10 @@ const Survey = () => {
     ]
   );
 
-  useEffect(() => {
-    alert('hey');
-  }, [data]);
-
   return (
     <main className="flex min-h-screen flex-col items-center p-24 pt-14 space-y-14">
       {/* Header */}
-      <div className="z-10 w-full items-center justify-between text-center font-mono text-sm">
+      <div className="z-10 w-full items-center justify-between text-center font-mono text-white text-sm">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200  lg:p-4 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
           Reading Comprehension Survey
         </p>
@@ -67,8 +63,8 @@ const Survey = () => {
           data.map((d) => (
             <div key={d.title} className="flex w-full flex-row items-center justify-between border-b pb-2 border-neutral-800">
               <div className="flex flex-col">
-                <h2 className={`mb-1 text-base font-semibold`}>{d.title}</h2>
-                <text className={`mb-1 text-xs opacity-50`}>{d.options[0] == "tof" ? "True or False" : "Choose one"}</text>
+                <h2 className={`mb-1 text-base text-white font-semibold`}>{d.title}</h2>
+                <text className={`mb-1 text-xs text-white opacity-50`}>{d.options[0] == "tof" ? "True or False" : "Choose one"}</text>
               </div>
 
               { d.options[0] != "tof" ?
@@ -93,8 +89,8 @@ const Survey = () => {
       {/* Complete Button */}
       <div className="rounded-lg border border-transparent border-white border-opacity-20 px-20 py-5 text-center transition-all hover:border-2 hover:border-opacity-25 active:border">
         <Link href="http://localhost:3000/ads/survey/finished" className="group" target="_blank" rel="noopener noreferrer" >
-          <h2 className={`text-2x1 mb-1 font-semibold`}>Complete</h2>
-          <p className={`text-sm opacity-50`}>Finish this survey</p>
+          <h2 className={`text-2x1 mb-1 text-white font-semibold`}>Complete</h2>
+          <p className={`text-sm text-white opacity-50`}>Finish this survey</p>
         </Link>
       </div>
 
